@@ -1,0 +1,26 @@
+{
+  "name": "hydl",
+  "version": "1.0.0",
+  "description": "Hypance Data Listener",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hypance/HyDL.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hypance/HyDL/issues"
+  },
+  "homepage": "https://github.com/Hypance/HyDL#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0",
+    "ws": "^8.9.0"
+  }
+}
